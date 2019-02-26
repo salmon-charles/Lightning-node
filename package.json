@@ -6,10 +6,11 @@
   "dependencies": {
     "canvas": "https://github.com/basvanmeurs/node-canvas.git",
     "wpe-lightning": "https://github.com/WebPlatformForEmbedded/Lightning.git#1.0.0",
-    "wpe-webgl": "https://github.com/WebPlatformForEmbedded/node-wpe-webgl.git"
+    "wpe-webgl": "https://github.com/WebPlatformForEmbedded/node-wpe-webgl.git",
+    "rollup": "^0.67.0"
   },
-  "devDependencies": {
-    "rollup-plugin-closure-compiler": "^0.1.0"
+  "scripts": {
+    "postinstall": "rollup -c"
   },
   "repository": {
     "type": "git",

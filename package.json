@@ -1,11 +1,11 @@
 {
   "author": "Metrological, Bas van Meurs <b.van.meurs@metrological.com>",
   "name": "wpe-lightning-node",
-  "version": "1.0.0",
+  "version": "1.x",
   "license": "apache",
   "dependencies": {
     "canvas": "https://github.com/basvanmeurs/node-canvas.git",
-    "wpe-lightning": "https://github.com/WebPlatformForEmbedded/Lightning.git#1.0.0",
+    "wpe-lightning": "https://github.com/WebPlatformForEmbedded/Lightning.git#1.x",
     "wpe-webgl": "https://github.com/WebPlatformForEmbedded/node-wpe-webgl.git",
     "rollup": "^0.67.0"
   },

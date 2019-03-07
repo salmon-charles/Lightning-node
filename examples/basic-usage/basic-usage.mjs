@@ -1,10 +1,10 @@
-import lng from "../../../src/lightning.mjs"
+import lng from "../../src/lightning.mjs"
 
 class BasicUsageExample extends lng.Application {
     static _template() {
         return {
             Bg: {
-                src: "../../rockies.jpeg", scale: 1,
+                src: "./rockies.jpeg", scale: 1,
             },
             Primary: {
                 Main: {rect: true, renderToTexture: true, w: 900, h: 900, colorLeft: 0x000000FF, colorRight: 0xFF0000FF
@@ -16,9 +16,7 @@ class BasicUsageExample extends lng.Application {
     }
 }
 
-import NodePlatform from "../../../src/platforms/node/NodePlatform.mjs";
-
-const options = {stage: {w: 900, h: 900, clearColor: 0xFF000000, platform: NodePlatform}};
+const options = {stage: {w: 900, h: 900, clearColor: 0xFF000000, platform: lng.NodePlatform}};
 
 options.stage.window = {title: "Border example", fullscreen: false};
 

@@ -5,10 +5,11 @@
   "license": "apache",
   "dependencies": {
     "canvas": "https://github.com/basvanmeurs/node-canvas.git",
-    "wpe-lightning": "https://github.com/WebPlatformForEmbedded/Lightning.git",
-    "wpe-webgl": "https://github.com/WebPlatformForEmbedded/node-wpe-webgl.git",
-    "rollup": "^0.67.0"
+    "rollup": "^0.67.0",
+    "wpe-lightning": "file:../Lightning",
+    "wpe-webgl": "https://github.com/WebPlatformForEmbedded/node-wpe-webgl.git"
   },
+  "main": "src/lightning.mjs",
   "repository": {
     "type": "git",
     "url": "git@github.com:WebPlatformForEmbedded/Lightning-node.git"

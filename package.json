@@ -9,9 +9,6 @@
     "wpe-webgl": "https://github.com/WebPlatformForEmbedded/node-wpe-webgl.git",
     "rollup": "^0.67.0"
   },
-  "scripts": {
-    "postinstall": "rollup -c"
-  },
   "repository": {
     "type": "git",
     "url": "git@github.com:WebPlatformForEmbedded/Lightning-node.git"

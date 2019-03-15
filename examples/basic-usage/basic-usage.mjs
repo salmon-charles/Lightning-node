@@ -14,9 +14,10 @@ class BasicUsageExample extends lng.Application {
             Overlay: {}
         }
     }
+
 }
 
-const options = {stage: {w: 900, h: 900, clearColor: 0xFF000000, platform: lng.NodePlatform}};
+const options = {stage: {w: 900, h: 900, clearColor: 0xFF000000}};
 
 options.stage.window = {title: "Border example", fullscreen: false};
 

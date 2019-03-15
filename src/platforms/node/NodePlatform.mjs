@@ -12,6 +12,9 @@ export default class NodePlatform {
         this._awaitingLoop = false;
     }
 
+    destroy() {
+    }
+
     startLoop() {
         this._looping = true;
         if (!this._awaitingLoop) {

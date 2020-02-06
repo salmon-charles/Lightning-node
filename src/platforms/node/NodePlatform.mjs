@@ -136,5 +136,13 @@ export default class NodePlatform {
         console.warn("No support for key handling");
     }
 
+    registerKeydownHandler(keyhandler) {
+        console.warn("No support for key up handling");
+    }
+
+    registerKeyupHandler(keyhandler) {
+        console.warn("No support for key down handling");
+    }
+
 }
 
